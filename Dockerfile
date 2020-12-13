@@ -2,7 +2,7 @@
 FROM httpd
 
 # copy the index.html to the htdocs director
-COPY ./index.html /usr/local/apache2/htdocs/
+COPY ./dist/mywebsite /usr/local/apache2/htdocs/
 
 # expose port 80
 EXPOSE 80
